@@ -1,0 +1,6 @@
+<h1>Hello, {{ title }}</h1>
+<button (click)="mostrarLogin()">Login</button>
+@if (visibleLogin) {<app-login></app-login>}
+<br><br>
+<button (click)="mostrarQuiensoy()">Quien soy</button>
+@if (visibleQuiensoy) {<app-quien-soy></app-quien-soy>}
